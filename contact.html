@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Blue Rain Enterprises LLC for wholesale partnerships, brand inquiries, and supplier relationships.">
+    <title>Contact Us | Blue Rain Enterprises LLC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Blue Rain Enterprises LLC Logo" class="logo-img">
+                    </a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="business-model.html">Business Model</a></li>
+                    <li><a href="wholesale-partnerships.html">Wholesale Partnerships</a></li>
+                    <li><a href="authorized-reseller.html">Reseller Policy</a></li>
+                    <li><a href="brand-protection.html">Brand Protection</a></li>
+                    <li><a href="compliance.html">Compliance</a></li>
+                    <li><a href="contact.html" class="active cta-nav">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's start a conversation about wholesale partnerships</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-layout">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Whether you're a manufacturer, brand owner, or authorized distributor, we'd love to hear from you. Complete the form below and we'll respond within 24 business hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="role">Your Role</label>
+                            <select id="role" name="role">
+                                <option value="">Select your role</option>
+                                <option value="manufacturer">Manufacturer</option>
+                                <option value="brand-owner">Brand Owner</option>
+                                <option value="authorized-distributor">Authorized Distributor</option>
+                                <option value="brand-protection">Brand Protection Team</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryType">Inquiry Type *</label>
+                            <select id="inquiryType" name="inquiryType" required>
+                                <option value="">Select inquiry type</option>
+                                <option value="wholesale-partnership">Wholesale Partnership Opportunity</option>
+                                <option value="authorization-request">Authorization/Documentation Request</option>
+                                <option value="brand-concern">Brand Protection Concern</option>
+                                <option value="compliance-question">Compliance Question</option>
+                                <option value="general-inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your inquiry..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I agree to Blue Rain Enterprises LLC contacting me regarding this inquiry and have read the <a href="privacy-policy.html">Privacy Policy</a>. *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email Address</h3>
+                            <p><a href="mailto:info@bluerainenterprisesllc.com">info@bluerainenterprisesllc.com</a></p>
+                            <p class="info-note">Primary contact for all inquiries</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Response Time</h3>
+                            <p>Within 24 business hours</p>
+                            <p class="info-note">Monday - Friday, 9:00 AM - 5:00 PM EST</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Business Location</h3>
+                            <p>Wyoming, United States</p>
+                            <p class="info-note">Registered Wyoming LLC</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Legal Business Name</h3>
+                            <p>Blue Rain Enterprises LLC</p>
+                            <p class="info-note">EIN Registered</p>
+                        </div>
+                    </div>
+
+                    <div class="urgent-contact">
+                        <h3><i class="fas fa-exclamation-circle"></i> Urgent Brand Concerns</h3>
+                        <p>For immediate brand protection or compliance issues, email us with subject line: <strong>"URGENT: Brand Protection"</strong></p>
+                        <p class="info-note">Response within 4 business hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inquiry Types -->
+    <section class="inquiry-types-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How We Can Help</h2>
+            </div>
+            <div class="inquiry-grid">
+                <div class="inquiry-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Wholesale Partnerships</h3>
+                    <p>Manufacturers, brand owners, and authorized distributors interested in establishing wholesale relationships with Blue Rain Enterprises.</p>
+                </div>
+                <div class="inquiry-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Authorization Verification</h3>
+                    <p>Brand owners requesting documentation of our authorization to sell their products or verification of our sourcing.</p>
+                </div>
+                <div class="inquiry-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Brand Protection</h3>
+                    <p>Brand protection teams with concerns about listing accuracy, MAP compliance, or product authenticity.</p>
+                </div>
+                <div class="inquiry-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Compliance Matters</h3>
+                    <p>Questions about our compliance with marketplace policies, regulatory requirements, or industry standards.</p>
+                </div>
+                <div class="inquiry-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>General Inquiries</h3>
+                    <p>Any other questions about Blue Rain Enterprises LLC, our operations, or potential collaboration opportunities.</p>
+                </div>
+                <div class="inquiry-card">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Business Information</h3>
+                    <p>Requests for business credentials, registration documentation, or company verification information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="expectations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What to Expect After Contacting Us</h2>
+            </div>
+            <div class="expectations-timeline">
+                <div class="expectation-step">
+                    <div class="step-marker">1</div>
+                    <div class="step-content">
+                        <h3>Acknowledgment</h3>
+                        <p>You'll receive an automated confirmation that we've received your inquiry, typically within minutes.</p>
+                    </div>
+                </div>
+                <div class="expectation-step">
+                    <div class="step-marker">2</div>
+                    <div class="step-content">
+                        <h3>Initial Response</h3>
+                        <p>A member of our team will respond personally within 24 business hours (4 hours for urgent brand concerns).</p>
+                    </div>
+                </div>
+                <div class="expectation-step">
+                    <div class="step-marker">3</div>
+                    <div class="step-content">
+                        <h3>Information Exchange</h3>
+                        <p>Depending on your inquiry, we may request additional information or provide documentation you need.</p>
+                    </div>
+                </div>
+                <div class="expectation-step">
+                    <div class="step-marker">4</div>
+                    <div class="step-content">
+                        <h3>Next Steps</h3>
+                        <p>For partnership inquiries, we'll schedule a deeper conversation. For concerns, we'll outline our resolution plan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How quickly will I receive a response?</h3>
+                    <p>We commit to responding to all inquiries within 24 business hours. Urgent brand protection concerns receive priority response within 4 business hours.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I request business verification documents?</h3>
+                    <p>Absolutely. We're happy to provide Wyoming LLC registration, EIN verification, business insurance certificates, and marketplace seller verification upon request.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if I'm not sure this form is right for my inquiry?</h3>
+                    <p>Use the form for any inquiry. We'll direct your message to the appropriate team member based on the content of your message.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you accept phone calls?</h3>
+                    <p>To ensure proper documentation and thorough responses, we prefer email communication. For established partners, we're happy to schedule phone or video calls.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What information should I include for partnership inquiries?</h3>
+                    <p>Include your company name, product categories, current distribution channels, and what you're looking for in a wholesale partner. We'll take it from there.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I report a concern about an unauthorized listing?</h3>
+                    <p>Use "Brand Protection Concern" as your inquiry type and provide specific product ASINs or listing URLs along with details about your concern.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Blue Rain Enterprises LLC</h4>
+                    <p>A U.S.-based ecommerce company specializing in authorized wholesale distribution and brand-compliant retail operations.</p>
+                    <p class="footer-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Registered in Wyoming, USA
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="business-model.html">Business Model</a></li>
+                        <li><a href="wholesale-partnerships.html">Partnerships</a></li>
+                        <li><a href="compliance.html">Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Policies</h4>
+                    <ul>
+                        <li><a href="authorized-reseller.html">Reseller Policy</a></li>
+                        <li><a href="brand-protection.html">Brand Protection</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                    </ul>
+                    <h4 style="margin-top: 1.5rem;">Contact</h4>
+                    <p><a href="mailto:info@bluerainenterprisesllc.com">info@bluerainenterprisesllc.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Blue Rain Enterprises LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
